@@ -1,0 +1,44 @@
+.section-blue {
+    background: var(--color-section);
+}
+
+.section-blue h2, p {
+    color: var(--color-ligth);
+}
+
+.list-group-item {
+    background: none;
+}
+
+iframe {
+    width: 100%;
+}
+
+.linha-vertical {
+    height: 30px;
+    color: var(--color-ligth);
+    border-left: 2px solid;
+}
+
+.card-lpt {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #E6FFFB;
+    background-image: url(/media/card-solicitar-lixeira.svg);
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid var(--color-ligth);
+}
+
+.brand {
+    color: var(--color-black);
+}
+
+.brand-img {
+    width: 60px;
+}
+
+
